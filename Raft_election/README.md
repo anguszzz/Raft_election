@@ -1,4 +1,4 @@
-# This is the programming assignment of CSE 224 Homework 8
+# Raft's election
 
 raftnode.py is implemented for a single RAFT node.
 
