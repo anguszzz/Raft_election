@@ -1,9 +1,9 @@
-# CSE 224 Homework 8
+# This is the programming assignment of CSE 224 Homework 8
 
-Basic starter code for Homework 8
+raftnode.py is implemented for a single RAFT node.
 
-raftnode.py should implement the code for a single RAFT node.
+This code ensures that client can query your RAFT nodes to 
+determine which one of them, if any, is a leader.
 
-You will likely want to implement some type of client that can
-query your RAFT nodes to determine which one of them, if any,
-is a leader.
+The election will automatically begin when there is no leader
+and will end if the leader has been elected.
